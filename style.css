@@ -56,6 +56,11 @@ body {
   border-bottom: none;
   margin: 0; }
 
+.datatable__row-section-wrapper {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around; }
+
 .datatable__row:first-of-type {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px; }
@@ -99,7 +104,8 @@ body {
   padding: 10px;
   flex-grow: 1; }
 
-.datatable__row-section--button-section {
+.datatable__row-section--button-section,
+.datatable__row-section--trello-section {
   margin-left: auto;
   align-self: center;
   flex-shrink: 1;
@@ -133,6 +139,10 @@ body {
   min-width: 120px;
   line-height: 1.25;
   border-radius: 4px; }
+
+.datatable__select {
+  display: block;
+  margin-bottom: 10px;  }
 
 .datatable__tasks-container:empty {
   position: relative; }
