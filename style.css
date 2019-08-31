@@ -35,12 +35,15 @@ body {
 @media (min-width: 768px) {
   .container {
     width: 750px; } }
+
 @media (min-width: 992px) {
   .container {
     width: 970px; } }
+
 @media (min-width: 1200px) {
   .container {
     width: 1170px; } }
+
 .kodilla-heading--main {
   margin: 20px auto;
   text-align: center;
@@ -87,7 +90,8 @@ body {
 .datatable__row--editing .datatable__button {
   display: none; }
 
-.datatable__row--editing .datatable__button--editing {
+.datatable__row--editing .datatable__button--editing,
+.datatable__row--editing .datatable__button--card-creation {
   display: block; }
 
 .datatable__row--add input,
@@ -142,7 +146,7 @@ body {
 
 .datatable__select {
   display: block;
-  margin-bottom: 10px;  }
+  margin-bottom: 10px; }
 
 .datatable__tasks-container:empty {
   position: relative; }
@@ -151,5 +155,4 @@ body {
   content: 'Currently, there are no tasks available.'; }
 
 .template {
-  display: none;
-}
+  display: none; }
